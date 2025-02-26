@@ -1,0 +1,22 @@
+.supp-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.supp-title{
+    font-size: 50px;
+    /* justify-self: center; */
+}
+
+.supp-subtitle{
+    color: #898CA9;
+    font-size: 16px;
+    max-width: 580px;  
+}
+
+.supp-button {
+    
+}

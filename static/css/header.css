@@ -1,0 +1,47 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 80px;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 168px;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 130px;
+    gap: 30px;
+}
+
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 130px;
+    gap: 20px;
+}
+
+.button-in {
+    border: white solid 1px;
+    border-radius: 15px;
+    padding: 12px 22px;
+}
+
+.button-up {
+    border: white solid 1px;
+    border-radius: 15px;
+    padding: 12px 22px;
+}
+
+.header-container a{
+    color: white;
+}

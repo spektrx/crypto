@@ -1,0 +1,32 @@
+.crypto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 140px 0;
+    gap: 16px;
+}
+
+.crypto-title{
+    font-size: 50px;
+    /* justify-self: center; */
+}
+
+.crypto-subtitle{
+    color: #898CA9;
+    font-size: 16px;
+    max-width: 580px;
+
+    
+}
+
+.crypto-button {
+    padding-top: 16px;
+    border-radius: 10px;
+    padding: 12px 22px;
+    background: rgb(24,200,255);
+    background: linear-gradient(90deg, rgba(24,200,255,1) 0%, rgba(147,63,254,1) 100%);
+    color: white;
+}
+
