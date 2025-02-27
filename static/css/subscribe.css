@@ -49,7 +49,8 @@
     justify-content: space-between;
     gap: 10px;
     padding: 16px 20px;
-    border: 1px solid #18C8FF;
+    border: 1px solid transparent;
+    background: linear-gradient(#000, #000 0) padding-box, linear-gradient(to right top, #18C8FF, #933FFE) border-box;
     border-radius: 10px;
     width: 97%;
 }
