@@ -1,22 +1,51 @@
+.graphs {
+    max-width: 1440px;
+    padding: 120px 130px;
+    margin: 0 auto;
+}
+
 .graphs__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 46px;
+}
+
+.graphs__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 780px;
+}
+
+.graphs__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
 .graphs__title{
     font-size: 50px;
-    /* justify-self: center; */
+    line-height: 130%;
+    font-weight: 900;
 }
 
 .graphs__subtitle{
     color: #898CA9;
     font-size: 16px;
-    max-width: 580px;
+    max-width: 580px;   
+}
 
-    
+.graphs__learn-more {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 100%;
+    font-weight: 600;
 }
 
 
@@ -26,7 +55,7 @@
     flex-direction: column;
     background: #111;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     font-family: Arial, sans-serif;
 }
 .crypto-row {
