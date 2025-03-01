@@ -2,6 +2,9 @@
     padding: 100px 130px;
     max-width: 1440px;
     margin: 0 auto;
+    border-top: 1px solid #1A1B23;
+    position: relative;
+    overflow-y: clip;
 }
 
 .footer-container {
@@ -97,4 +100,13 @@
 .footer__links-link {
     font-size: 14px;
     color: white;
+}
+
+.footer-background {
+    position: absolute;
+    top: -107px;
+    left: -467px;
+    width: 1377px;
+    height: 1641px;
+    background: radial-gradient(#18ff9e85 0%, #17ffe359 24%, transparent 57%);
 }
