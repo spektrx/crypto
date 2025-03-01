@@ -2,6 +2,7 @@
     max-width: 1440px;
     padding: 80px 330px 120px;
     margin: 0 auto;
+    position: relative;
 }
 
 .subscribe-container {
@@ -63,3 +64,19 @@
 .subscribe-button__arrow {
     cursor: pointer;
 }
+
+/* .subscribe__circle-container {
+    position: absolute;
+}
+
+.subscribe__circle-1 {
+    position: absolute;
+    border: 1px solid transparent;
+    background: linear-gradient(#000, #000 0) padding-box, linear-gradient(#484848 0%, #4848485b 49%, #484848 100%) border-box;
+    width: 1204.08px;
+    height: 514.99px;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    top: 33px;
+    left: -211px;
+} */
